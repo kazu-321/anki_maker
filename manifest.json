@@ -8,6 +8,12 @@
       "file": "data/AcademicEnglish/前期中間_柴田.json"
     },
     {
+      "id": "AcademicEnglish/前期期末_柴田",
+      "title": "前期期末_柴田",
+      "description": "AcademicEnglishの前期期末テスト範囲。楽器の英単語、梅に関する英文の英訳・語順、重要語句の穴埋めを収録。",
+      "file": "data/AcademicEnglish/前期期末_柴田.json"
+    },
+    {
       "id": "ソフトウェア工学/01_概要と開発プロセス",
       "title": "01_概要と開発プロセス",
       "description": "ソフトウェア危機、ソフトウェア工学、開発方法論に関する予想問題",

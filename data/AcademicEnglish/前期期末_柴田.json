@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "id": "AcademicEnglish/前期期末_柴田",
+  "title": "前期期末_柴田",
+  "description": "AcademicEnglishの前期期末テスト範囲。楽器の英単語、梅に関する英文の英訳・語順、重要語句の穴埋めを収録。",
+  "questions": [
+    {
+      "id": "q001",
+      "type": "text_input",
+      "question": "アコーディオン",
+      "inputs": [
+        {
+          "answers": ["accordion"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "アコーディオンは accordion です。"
+    },
+    {
+      "id": "q002",
+      "type": "text_input",
+      "question": "クラリネット",
+      "inputs": [
+        {
+          "answers": ["clarinet"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "クラリネットは clarinet です。"
+    },
+    {
+      "id": "q003",
+      "type": "text_input",
+      "question": "シンバル",
+      "inputs": [
+        {
+          "answers": ["cymbals"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "シンバルは cymbals です。"
+    },
+    {
+      "id": "q004",
+      "type": "text_input",
+      "question": "フルート",
+      "inputs": [
+        {
+          "answers": ["flute"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "フルートは flute です。"
+    },
+    {
+      "id": "q005",
+      "type": "text_input",
+      "question": "キーボード",
+      "inputs": [
+        {
+          "answers": ["keyboard"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "キーボードは keyboard です。"
+    },
+    {
+      "id": "q006",
+      "type": "text_input",
+      "question": "リコーダー",
+      "inputs": [
+        {
+          "answers": ["recorder"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "リコーダーは recorder です。"
+    },
+    {
+      "id": "q007",
+      "type": "text_input",
+      "question": "サクスフォン",
+      "inputs": [
+        {
+          "answers": ["saxophone", "saxphone"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "正しい綴りは saxophone です。"
+    },
+    {
+      "id": "q008",
+      "type": "text_input",
+      "question": "トランペット",
+      "inputs": [
+        {
+          "answers": ["trumpet", "trampet"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "正しい綴りは trumpet です。"
+    },
+    {
+      "id": "q009",
+      "type": "text_input",
+      "question": "木琴",
+      "inputs": [
+        {
+          "answers": ["xylophone"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "木琴は xylophone です。"
+    },
+    {
+      "id": "q010",
+      "type": "text_input",
+      "question": "ベル",
+      "inputs": [
+        {
+          "answers": ["bells"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "ベルは bells です。"
+    },
+    {
+      "id": "q011",
+      "type": "text_input",
+      "question": "ギター",
+      "inputs": [
+        {
+          "answers": ["guitar"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "ギターは guitar です。"
+    },
+    {
+      "id": "q012",
+      "type": "text_input",
+      "question": "ハープ",
+      "inputs": [
+        {
+          "answers": ["harp"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "ハープは harp です。"
+    },
+    {
+      "id": "q013",
+      "type": "text_input",
+      "question": "ピアノ",
+      "inputs": [
+        {
+          "answers": ["piano"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "ピアノは piano です。"
+    },
+    {
+      "id": "q014",
+      "type": "text_input",
+      "question": "ドラム",
+      "inputs": [
+        {
+          "answers": ["drum"]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "explanation": "ドラムは drum です。"
+    },
+    {
+      "id": "q015",
+      "type": "text_input",
+      "question": "美しい花が咲いているとき、梅の木は春の最初の兆しとなる。",
+      "inputs": [
+        {
+          "answers": ["When its beautiful flowers are blooming, the plum tree serves as the first sign of spring."]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "tags": ["読解", "英訳"],
+      "difficulty": 2,
+      "explanation": "its beautiful flowers は「その梅の木の美しい花」、serves as は「〜としての役割を果たす」という意味です。"
+    },
+    {
+      "id": "q016",
+      "type": "text_input",
+      "question": "梅干しには複数の用途があり、軍事作戦中や飢饉の際には非常食または生存用食料として役立つ。",
+      "inputs": [
+        {
+          "answers": ["Pickled plums serve multiple purposes and can serve as emergency or survival food during military operations or famines."]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "tags": ["読解", "英訳"],
+      "difficulty": 2,
+      "explanation": "pickled plums は「梅干し」、multiple purposes は「複数の用途」、famines は「飢饉」です。"
+    },
+    {
+      "id": "q017",
+      "type": "text_input",
+      "question": "梅がどれほど実用的で役に立つかに感銘を受けた成彬は、領地全体に数多くの梅の木を植えさせた。",
+      "inputs": [
+        {
+          "answers": ["Nariaki, impressed by how practical and useful plums were, had numerous plum trees planted throughout his domain."]
+        }
+      ],
+      "case_sensitive": false,
+      "trim": true,
+      "normalize_spaces": true,
+      "input_ordered": true,
+      "tags": ["読解", "英訳"],
+      "difficulty": 3,
+      "explanation": "had plum trees planted は「梅の木を植えさせた」という使役の表現です。"
+    },
+    {
+      "id": "q018",
+      "type": "ordered_choice",
+      "question": "美しい花が咲いているとき、梅の木は春の最初の兆しとなる。",
+      "choices": [
+        "When",
+        "its",
+        "beautiful",
+        "flowers",
+        "are",
+        "blooming,",
+        "the",
+        "plum",
+        "tree",
+        "serves",
+        "as",
+        "the",
+        "first",
+        "sign",
+        "of",
+        "spring."
+      ],
+      "shuffle_choices": true,
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "tags": ["読解", "語順"],
+      "difficulty": 2,
+      "explanation": "When its beautiful flowers are blooming, が条件を表す副詞節です。"
+    },
+    {
+      "id": "q019",
+      "type": "ordered_choice",
+      "question": "梅干しには複数の用途があり、軍事作戦中や飢饉の際には非常食または生存用食料として役立つ。",
+      "choices": [
+        "Pickled",
+        "plums",
+        "serve",
+        "multiple",
+        "purposes",
+        "and",
+        "can",
+        "serve",
+        "as",
+        "emergency",
+        "or",
+        "survival",
+        "food",
+        "during",
+        "military",
+        "operations",
+        "or",
+        "famines."
+      ],
+      "shuffle_choices": true,
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "tags": ["読解", "語順"],
+      "difficulty": 2,
+      "explanation": "can serve as は「〜として役立つ」、during は「〜の間に」という意味です。"
+    },
+    {
+      "id": "q020",
+      "type": "ordered_choice",
+      "question": "梅がどれほど実用的で役に立つかに感銘を受けた成彬は、領地全体に数多くの梅の木を植えさせた。",
+      "choices": [
+        "Nariaki,",
+        "impressed",
+        "by",
+        "how",
+        "practical",
+        "and",
+        "useful",
+        "plums",
+        "were,",
+        "had",
+        "numerous",
+        "plum",
+        "trees",
+        "planted",
+        "throughout",
+        "his",
+        "domain."
+      ],
+      "shuffle_choices": true,
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "tags": ["読解", "語順"],
+      "difficulty": 3,
+      "explanation": "impressed by how practical and useful plums were は成彬の状態を説明する分詞構文です。"
+    },
+    {
+      "id": "q021",
+      "type": "single_choice",
+      "question": "When its beautiful ___ are blooming, the plum tree serves as the first sign of spring.",
+      "choices": ["flowers", "roots", "leaves", "seeds"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "flowers は「花」です。"
+    },
+    {
+      "id": "q022",
+      "type": "single_choice",
+      "question": "When its beautiful flowers are ___, the plum tree serves as the first sign of spring.",
+      "choices": ["blooming", "freezing", "falling", "sleeping"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "blooming は「咲いている」です。"
+    },
+    {
+      "id": "q023",
+      "type": "single_choice",
+      "question": "The plum tree ___ as the first sign of spring.",
+      "choices": ["serves", "borrows", "folds", "loses"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "serve as は「〜として役立つ・機能する」です。"
+    },
+    {
+      "id": "q024",
+      "type": "single_choice",
+      "question": "The plum tree serves as the first ___ of spring.",
+      "choices": ["sign", "surface", "charge", "corner"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "sign は「兆し・しるし」です。"
+    },
+    {
+      "id": "q025",
+      "type": "single_choice",
+      "question": "Pickled plums serve multiple ___.",
+      "choices": ["purposes", "patterns", "passages", "pockets"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "multiple purposes は「複数の用途」です。"
+    },
+    {
+      "id": "q026",
+      "type": "single_choice",
+      "question": "Pickled plums can serve as emergency or ___ food.",
+      "choices": ["survival", "musical", "seasonal", "private"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "survival food は「生存用食料」です。"
+    },
+    {
+      "id": "q027",
+      "type": "single_choice",
+      "question": "Pickled plums can serve as emergency or survival food during military ___.",
+      "choices": ["operations", "instruments", "gardens", "languages"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "military operations は「軍事作戦」です。"
+    },
+    {
+      "id": "q028",
+      "type": "single_choice",
+      "question": "Pickled plums can serve as emergency or survival food during military operations or ___.",
+      "choices": ["famines", "festivals", "forests", "factories"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "famines は「飢饉」です。"
+    },
+    {
+      "id": "q029",
+      "type": "single_choice",
+      "question": "Nariaki, ___ by how practical and useful plums were, had numerous plum trees planted throughout his domain.",
+      "choices": ["impressed", "hidden", "separated", "covered"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 2,
+      "explanation": "impressed by は「〜に感銘を受けて」です。"
+    },
+    {
+      "id": "q030",
+      "type": "single_choice",
+      "question": "Nariaki was impressed by how ___ and useful plums were.",
+      "choices": ["practical", "silent", "distant", "ordinary"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "practical は「実用的な」です。"
+    },
+    {
+      "id": "q031",
+      "type": "single_choice",
+      "question": "Nariaki was impressed by how practical and ___ plums were.",
+      "choices": ["useful", "narrow", "formal", "ancient"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "useful は「役に立つ・有用な」です。"
+    },
+    {
+      "id": "q032",
+      "type": "single_choice",
+      "question": "Nariaki had ___ plum trees planted throughout his domain.",
+      "choices": ["numerous", "empty", "single", "fragile"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "numerous は「数多くの」です。"
+    },
+    {
+      "id": "q033",
+      "type": "single_choice",
+      "question": "Nariaki had numerous plum trees planted throughout his ___.",
+      "choices": ["domain", "instrument", "season", "purpose"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "tags": ["読解", "語彙"],
+      "difficulty": 1,
+      "explanation": "domain は「領地・支配地」です。"
+    }
+  ]
+}
