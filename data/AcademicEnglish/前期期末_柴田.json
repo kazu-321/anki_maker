@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "AcademicEnglish/前期期末_柴田",
   "title": "前期期末_柴田",
-  "description": "AcademicEnglishの前期期末テスト範囲。楽器の英単語、梅に関する英文の英訳・語順、重要語句の穴埋めを収録。",
+  "description": "AcademicEnglishの前期期末テスト範囲。楽器の英単語、梅に関する英文の語順、重要語句の穴埋めを収録。",
   "questions": [
     {
       "id": "q001",
@@ -216,57 +216,6 @@
     },
     {
       "id": "q015",
-      "type": "text_input",
-      "question": "美しい花が咲いているとき、梅の木は春の最初の兆しとなる。",
-      "inputs": [
-        {
-          "answers": ["When its beautiful flowers are blooming, the plum tree serves as the first sign of spring."]
-        }
-      ],
-      "case_sensitive": false,
-      "trim": true,
-      "normalize_spaces": true,
-      "input_ordered": true,
-      "tags": ["読解", "英訳"],
-      "difficulty": 2,
-      "explanation": "its beautiful flowers は「その梅の木の美しい花」、serves as は「〜としての役割を果たす」という意味です。"
-    },
-    {
-      "id": "q016",
-      "type": "text_input",
-      "question": "梅干しには複数の用途があり、軍事作戦中や飢饉の際には非常食または生存用食料として役立つ。",
-      "inputs": [
-        {
-          "answers": ["Pickled plums serve multiple purposes and can serve as emergency or survival food during military operations or famines."]
-        }
-      ],
-      "case_sensitive": false,
-      "trim": true,
-      "normalize_spaces": true,
-      "input_ordered": true,
-      "tags": ["読解", "英訳"],
-      "difficulty": 2,
-      "explanation": "pickled plums は「梅干し」、multiple purposes は「複数の用途」、famines は「飢饉」です。"
-    },
-    {
-      "id": "q017",
-      "type": "text_input",
-      "question": "梅がどれほど実用的で役に立つかに感銘を受けた成彬は、領地全体に数多くの梅の木を植えさせた。",
-      "inputs": [
-        {
-          "answers": ["Nariaki, impressed by how practical and useful plums were, had numerous plum trees planted throughout his domain."]
-        }
-      ],
-      "case_sensitive": false,
-      "trim": true,
-      "normalize_spaces": true,
-      "input_ordered": true,
-      "tags": ["読解", "英訳"],
-      "difficulty": 3,
-      "explanation": "had plum trees planted は「梅の木を植えさせた」という使役の表現です。"
-    },
-    {
-      "id": "q018",
       "type": "ordered_choice",
       "question": "美しい花が咲いているとき、梅の木は春の最初の兆しとなる。",
       "choices": [
@@ -294,7 +243,7 @@
       "explanation": "When its beautiful flowers are blooming, が条件を表す副詞節です。"
     },
     {
-      "id": "q019",
+      "id": "q016",
       "type": "ordered_choice",
       "question": "梅干しには複数の用途があり、軍事作戦中や飢饉の際には非常食または生存用食料として役立つ。",
       "choices": [
@@ -324,7 +273,7 @@
       "explanation": "can serve as は「〜として役立つ」、during は「〜の間に」という意味です。"
     },
     {
-      "id": "q020",
+      "id": "q017",
       "type": "ordered_choice",
       "question": "梅がどれほど実用的で役に立つかに感銘を受けた成彬は、領地全体に数多くの梅の木を植えさせた。",
       "choices": [
@@ -353,7 +302,7 @@
       "explanation": "impressed by how practical and useful plums were は成彬の状態を説明する分詞構文です。"
     },
     {
-      "id": "q021",
+      "id": "q018",
       "type": "single_choice",
       "question": "When its beautiful ___ are blooming, the plum tree serves as the first sign of spring.",
       "choices": ["flowers", "roots", "leaves", "seeds"],
@@ -364,7 +313,7 @@
       "explanation": "flowers は「花」です。"
     },
     {
-      "id": "q022",
+      "id": "q019",
       "type": "single_choice",
       "question": "When its beautiful flowers are ___, the plum tree serves as the first sign of spring.",
       "choices": ["blooming", "freezing", "falling", "sleeping"],
@@ -375,7 +324,7 @@
       "explanation": "blooming は「咲いている」です。"
     },
     {
-      "id": "q023",
+      "id": "q020",
       "type": "single_choice",
       "question": "The plum tree ___ as the first sign of spring.",
       "choices": ["serves", "borrows", "folds", "loses"],
@@ -386,7 +335,7 @@
       "explanation": "serve as は「〜として役立つ・機能する」です。"
     },
     {
-      "id": "q024",
+      "id": "q021",
       "type": "single_choice",
       "question": "The plum tree serves as the first ___ of spring.",
       "choices": ["sign", "surface", "charge", "corner"],
@@ -397,7 +346,7 @@
       "explanation": "sign は「兆し・しるし」です。"
     },
     {
-      "id": "q025",
+      "id": "q022",
       "type": "single_choice",
       "question": "Pickled plums serve multiple ___.",
       "choices": ["purposes", "patterns", "passages", "pockets"],
@@ -408,7 +357,7 @@
       "explanation": "multiple purposes は「複数の用途」です。"
     },
     {
-      "id": "q026",
+      "id": "q023",
       "type": "single_choice",
       "question": "Pickled plums can serve as emergency or ___ food.",
       "choices": ["survival", "musical", "seasonal", "private"],
@@ -419,7 +368,7 @@
       "explanation": "survival food は「生存用食料」です。"
     },
     {
-      "id": "q027",
+      "id": "q024",
       "type": "single_choice",
       "question": "Pickled plums can serve as emergency or survival food during military ___.",
       "choices": ["operations", "instruments", "gardens", "languages"],
@@ -430,7 +379,7 @@
       "explanation": "military operations は「軍事作戦」です。"
     },
     {
-      "id": "q028",
+      "id": "q025",
       "type": "single_choice",
       "question": "Pickled plums can serve as emergency or survival food during military operations or ___.",
       "choices": ["famines", "festivals", "forests", "factories"],
@@ -441,7 +390,7 @@
       "explanation": "famines は「飢饉」です。"
     },
     {
-      "id": "q029",
+      "id": "q026",
       "type": "single_choice",
       "question": "Nariaki, ___ by how practical and useful plums were, had numerous plum trees planted throughout his domain.",
       "choices": ["impressed", "hidden", "separated", "covered"],
@@ -452,7 +401,7 @@
       "explanation": "impressed by は「〜に感銘を受けて」です。"
     },
     {
-      "id": "q030",
+      "id": "q027",
       "type": "single_choice",
       "question": "Nariaki was impressed by how ___ and useful plums were.",
       "choices": ["practical", "silent", "distant", "ordinary"],
@@ -463,7 +412,7 @@
       "explanation": "practical は「実用的な」です。"
     },
     {
-      "id": "q031",
+      "id": "q028",
       "type": "single_choice",
       "question": "Nariaki was impressed by how practical and ___ plums were.",
       "choices": ["useful", "narrow", "formal", "ancient"],
@@ -474,7 +423,7 @@
       "explanation": "useful は「役に立つ・有用な」です。"
     },
     {
-      "id": "q032",
+      "id": "q029",
       "type": "single_choice",
       "question": "Nariaki had ___ plum trees planted throughout his domain.",
       "choices": ["numerous", "empty", "single", "fragile"],
@@ -485,7 +434,7 @@
       "explanation": "numerous は「数多くの」です。"
     },
     {
-      "id": "q033",
+      "id": "q030",
       "type": "single_choice",
       "question": "Nariaki had numerous plum trees planted throughout his ___.",
       "choices": ["domain", "instrument", "season", "purpose"],
