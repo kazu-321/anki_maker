@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "id": "離散数学/前期期末",
+  "title": "前期期末",
+  "description": "離散数学の前期期末向け暗記問題。平面グラフの記号、用語、公式、定理を4択で確認する。",
+  "questions": [
+    {
+      "id": "q001",
+      "type": "single_choice",
+      "question": "平面グラフで使う記号 p, q, r の対応として正しいものはどれか。",
+      "choices": [
+        "p=頂点数、q=辺数、r=領域数",
+        "p=辺数、q=領域数、r=頂点数",
+        "p=領域数、q=頂点数、r=辺数",
+        "p=連結成分数、q=頂点数、r=辺数"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "p は頂点数、q は辺数、r は領域数を表す。",
+      "tags": ["記号", "平面グラフ"],
+      "difficulty": 1
+    },
+    {
+      "id": "q002",
+      "type": "single_choice",
+      "question": "平面グラフで連結成分の個数を表す記号はどれか。",
+      "choices": ["k", "p", "q", "r"],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "k は連結成分の個数を表す。",
+      "tags": ["記号", "連結成分"],
+      "difficulty": 1
+    },
+    {
+      "id": "q003",
+      "type": "single_choice",
+      "question": "平面的グラフの説明として正しいものはどれか。",
+      "choices": [
+        "辺が交差しないように描き直せるグラフ",
+        "実際に辺が交差しないように描かれたグラフ",
+        "すべての領域が三角形になるグラフ",
+        "頂点数と辺数が必ず等しいグラフ"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "平面的グラフは、辺が交差しない描き方が存在するグラフである。",
+      "tags": ["用語", "平面的グラフ"],
+      "difficulty": 1
+    },
+    {
+      "id": "q004",
+      "type": "single_choice",
+      "question": "平面グラフの説明として正しいものはどれか。",
+      "choices": [
+        "実際に辺が交差しないように描かれたグラフ",
+        "辺が交差しないように描き直せる可能性だけを持つグラフ",
+        "必ず完全グラフであるグラフ",
+        "外側の領域を数えないグラフ"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "平面グラフは、辺が交差しないように実際に描かれたグラフを指す。",
+      "tags": ["用語", "平面グラフ"],
+      "difficulty": 1
+    },
+    {
+      "id": "q005",
+      "type": "single_choice",
+      "question": "平面グラフにおける「領域」の説明として正しいものはどれか。",
+      "choices": [
+        "平面グラフの辺によって分けられた部分で、外側も1つの領域として数える",
+        "頂点から出ている辺の本数だけを表す部分",
+        "グラフの内側にある三角形だけを表す部分",
+        "辺と辺が交差している場所"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "領域は辺で分けられた部分であり、外側の領域も含めて数える。",
+      "tags": ["用語", "領域"],
+      "difficulty": 1
+    },
+    {
+      "id": "q006",
+      "type": "single_choice",
+      "question": "領域の次数 deg(R) の意味として正しいものはどれか。",
+      "choices": [
+        "その領域の境界を通る辺の本数",
+        "その領域の内部にある頂点の本数",
+        "グラフ全体の領域の個数",
+        "その領域に接する連結成分の個数"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "領域の次数は、その領域の境界を通る辺の本数である。",
+      "tags": ["用語", "領域の次数"],
+      "difficulty": 1
+    },
+    {
+      "id": "q007",
+      "type": "single_choice",
+      "question": "双対グラフの作り方として正しいものはどれか。",
+      "choices": [
+        "各領域を頂点に置き換え、辺を共有する領域同士を結ぶ。外領域にも頂点を置く。",
+        "各頂点を領域に置き換え、辺を共有しない領域同士を結ぶ。",
+        "各辺を頂点に置き換え、同じ頂点から出る辺同士を結ぶ。",
+        "外領域だけを頂点に置き換え、すべての領域と結ぶ。"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "双対グラフでは各領域を頂点にし、辺を共有する領域を結ぶ。外領域も含める。",
+      "tags": ["用語", "双対グラフ"],
+      "difficulty": 2
+    },
+    {
+      "id": "q008",
+      "type": "single_choice",
+      "question": "極大平面グラフの説明として正しいものはどれか。",
+      "choices": [
+        "平面性を保ったまま、これ以上辺を追加できない平面グラフ",
+        "頂点数が最大の平面グラフ",
+        "領域数が必ず1の平面グラフ",
+        "辺をすべて削除しても平面性を保てないグラフ"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "極大平面グラフは、平面性を保ったまま辺を追加できないグラフである。",
+      "tags": ["用語", "極大平面グラフ"],
+      "difficulty": 1
+    },
+    {
+      "id": "q009",
+      "type": "single_choice",
+      "question": "極大平面グラフの領域について正しいものはどれか。",
+      "choices": [
+        "外領域を含むすべての領域が三角形である",
+        "内側の領域だけが三角形である",
+        "すべての領域が四角形である",
+        "領域の形には条件がない"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "極大平面グラフでは、外領域を含むすべての領域が三角形になる。",
+      "tags": ["極大平面グラフ", "領域"],
+      "difficulty": 1
+    },
+    {
+      "id": "q010",
+      "type": "single_choice",
+      "question": "連結平面グラフに対するオイラーの公式として正しいものはどれか。",
+      "choices": [
+        "p - q + r = 2",
+        "p + q + r = 2",
+        "p - q - r = 2",
+        "p - q + r = 0"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "連結平面グラフでは p - q + r = 2 が成り立つ。",
+      "tags": ["公式", "オイラーの公式"],
+      "difficulty": 1
+    },
+    {
+      "id": "q011",
+      "type": "single_choice",
+      "question": "連結でない平面グラフに対する公式として正しいものはどれか。",
+      "choices": [
+        "p - q + r = k + 1",
+        "p - q + r = k - 1",
+        "p + q - r = k + 1",
+        "p - q + r = 2k"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "連結成分数を k とすると、連結でない場合は p - q + r = k + 1 である。",
+      "tags": ["公式", "連結成分"],
+      "difficulty": 2
+    },
+    {
+      "id": "q012",
+      "type": "single_choice",
+      "question": "領域の次数の総和に関する公式として正しいものはどれか。",
+      "choices": [
+        "Σ_R deg(R) = 2q",
+        "Σ_R deg(R) = q",
+        "Σ_R deg(R) = 2p",
+        "Σ_R deg(R) = p + q"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "各辺は2つの領域の境界に数えられるため、領域の次数の総和は 2q になる。",
+      "tags": ["公式", "領域の次数"],
+      "difficulty": 1
+    },
+    {
+      "id": "q013",
+      "type": "single_choice",
+      "question": "一般の単純連結平面グラフについて正しい不等式はどれか。",
+      "choices": [
+        "q ≤ 3p - 6（p ≥ 3）",
+        "q ≤ 2p - 6（p ≥ 3）",
+        "q ≥ 3p - 6（p ≥ 3）",
+        "q = 3p + 6（p ≥ 3）"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "単純連結平面グラフでは、p ≥ 3 のとき q ≤ 3p - 6 である。",
+      "tags": ["公式", "単純平面グラフ"],
+      "difficulty": 2
+    },
+    {
+      "id": "q014",
+      "type": "single_choice",
+      "question": "極大平面グラフの辺数 q と頂点数 p の関係として正しいものはどれか。",
+      "choices": [
+        "q = 3p - 6",
+        "q = 3p + 6",
+        "q = 2p - 6",
+        "q = p - 3"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "極大平面グラフでは一般の不等式が等号になり、q = 3p - 6 である。",
+      "tags": ["公式", "極大平面グラフ"],
+      "difficulty": 1
+    },
+    {
+      "id": "q015",
+      "type": "single_choice",
+      "question": "極大平面グラフの領域数 r に関する公式として正しいものはどれか。",
+      "choices": [
+        "3r = 2q",
+        "2r = 3q",
+        "3r = q",
+        "r = 3q + 2"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "極大平面グラフでは全領域が三角形なので、3r = 2q となる。",
+      "tags": ["公式", "極大平面グラフ", "領域"],
+      "difficulty": 1
+    },
+    {
+      "id": "q016",
+      "type": "single_choice",
+      "question": "連結平面グラフの頂点の次数について正しい定理はどれか。",
+      "choices": [
+        "次数5以下の頂点が少なくとも1個存在する",
+        "すべての頂点の次数が5以下である",
+        "次数6以上の頂点が必ず2個存在する",
+        "すべての頂点の次数が同じである"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "連結平面グラフには、次数5以下の頂点が少なくとも1個存在する。",
+      "tags": ["定理", "頂点の次数"],
+      "difficulty": 1
+    },
+    {
+      "id": "q017",
+      "type": "single_choice",
+      "question": "「連結平面グラフには次数5以下の頂点が存在する」の読み方として正しいものはどれか。",
+      "choices": [
+        "すべての頂点ではなく、少なくとも1個の頂点が次数5以下である",
+        "すべての頂点の次数が必ず5以下である",
+        "次数5以下の頂点は存在してはいけない",
+        "次数がちょうど5の頂点が必ず1個だけ存在する"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "この定理は『少なくとも1個』を述べており、すべての頂点が5以下という意味ではない。",
+      "tags": ["定理", "注意点"],
+      "difficulty": 2
+    },
+    {
+      "id": "q018",
+      "type": "single_choice",
+      "question": "完全グラフ K₅ について正しいものはどれか。",
+      "choices": [
+        "K₅ は非平面的グラフである",
+        "K₅ は必ず木になる",
+        "K₅ は領域を持たない平面グラフである",
+        "K₅ はすべての領域が三角形になる極大平面グラフである"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "K₅ は代表的な非平面的グラフである。理由の証明は後から扱う。",
+      "tags": ["定理", "非平面グラフ", "K5"],
+      "difficulty": 1
+    },
+    {
+      "id": "q019",
+      "type": "single_choice",
+      "question": "次のうち、今は暗記せず、必要なときに上の公式から導出すればよい式はどれか。",
+      "choices": [
+        "r = 2 - p + q",
+        "p - q + r = 2",
+        "Σ_R deg(R) = 2q",
+        "K₅ は非平面的"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "r = 2 - p + q は p - q + r = 2 を変形すれば得られるため、暗記不要の式に分類される。",
+      "tags": ["公式", "暗記方針"],
+      "difficulty": 2
+    },
+    {
+      "id": "q020",
+      "type": "single_choice",
+      "question": "今回の最小暗記セットに含まれないものはどれか。",
+      "choices": [
+        "r = 2 - p + q",
+        "p - q + r = k + 1",
+        "q = 3p - 6（極大平面グラフ）",
+        "3r = 2q（極大平面グラフ）"
+      ],
+      "shuffle_choices": true,
+      "answer": 0,
+      "explanation": "r = 2 - p + q は上の公式から導出できるため、今は暗記しなくてよい式である。",
+      "tags": ["暗記方針", "最小暗記セット"],
+      "difficulty": 1
+    }
+  ]
+}
